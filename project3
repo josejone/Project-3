@@ -1,0 +1,26 @@
+using System;
+
+namespace Project3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string playnumbers = "32";
+            int x = Int32.Parse(playnumbers);
+            Console.WriteLine(x);
+            string salary = "100.34";
+            double y = double.Parse(salary);
+            Console.WriteLine(y);
+            string survey = "true";
+            Boolean yz = bool.Parse(survey);
+            Console.WriteLine(yz);
+            //datatype bytes: 0/1 //1 =true 0 = false
+            string gameday = "09/09/2021";
+            DateTime t = DateTime.Parse(gameday);
+            Console.WriteLine(t);
+            DateTime thisDate = new DateTime(2021, 9, 9);
+            Console.WriteLine(thisDate.ToString("D"));
+        }
+    }
+}
